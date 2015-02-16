@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" ng-controller="HomeCtrl" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ni_Lo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- pull in css based on angular -->
+
+  <!-- <link rel="stylesheet" ng-href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/{{ css }}/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" ng-href="layout-{{ layout }}.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="styles/css/app.css">
+  <!-- <link rel="stylesheet" type="text/css" ng-href="styles/css/{{selectedColor}}.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="/styles/css/{{selectedColor}}.css"> -->
+
+  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav pull-right">
+      <li>
+        <a href="#/home"><span class="glyphicon glyphicon-star-empty"></span> home</a>
+      </li>
+      <li>
+        <a href="#/about"><span class="glyphicon glyphicon-apple"></span> about</a>
+      </li>
+      <li>
+        <a href="#/coding"><span style="position: relative; left: 5px;" class="glyphicon glyphicon-menu-left"></span><span class="glyphicon glyphicon-menu-right"></span> coding</a>
+      </li>
+      <li>
+        <a href="#/resume"><span class="glyphicon glyphicon-briefcase"></span>  resume</a>
+      </li>
+      <li>
+        <a href ng-click="change = !change" style="float: right;"><span class="glyphicon glyphicon-flash"></span>change</a>
+      </li>
+<!--       <li ng-model="search">
+        <a href ng-click="search = !search"><span class="glyphicon glyphicon-search"></span><input ng-show="search" type="type"></a>
+      </li> -->
+    </ul>
+  </nav>
+
+  <div ng-show="change" style="float: right; position: relative; background: yellow; right: 20px; top: -20px; padding-left: 0px;">
+    <ul style="position: relative; margin: 10px 10px; left: -20px;">
+        <select ng-model="selectedColor">
+          <option value="" default selected>color</option>
+          <option ng-repeat="color in colors" ng-model="selectedColor" value="{{color}}">{{color}}</option>
+        </select>
+        <select ng-model="selectedAnimal">
+          <option value="" default selected>animal</option>
+          <option ng-repeat="animal in animals" value="{{animal}}">{{animal}}</option>
+        </select>
+        <button href ng-click="change = !change" class="btn" type="submit">Let's go!</button>
+          </ul>
+      </div>
+  </div>
+
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container" ng-view>
+
+
+
+
+
+
+
+  <!-- end ng-view div -->
+  </div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+
+  <script src="app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="about/about.js"></script>
+  <script src="resume/resume.js"></script>
+  <script src="coding/coding.js"></script>
+  <script src="greetings/greetings.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

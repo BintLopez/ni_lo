@@ -1,0 +1,36 @@
+<div ng-controller="GreetingsCtrl"> 
+		<div id="greetings" ng-show="greetings=true" ng-hide="chooseColor">
+			<div id="hi">
+			    <h1>Hello!</h1>
+			    <h1>!<span class="arabic">الف مرحبا</span></h1>
+			    <h1><span class="upside-down-exclamation">¡</span>Hola!</h1>
+		    </div>
+		    <h3>I'm Nicole... and you?</h3>
+			<a class="btn btn-default" ng-click="chooseColor=true">Introduce yourself!</a>
+	    </div>
+	
+	    <form ng-show="chooseColor">
+	    	<fieldset>
+			<h3>Three questions:</h3>
+			<div class="form-group">
+				<label>What's your name?</label>
+				<input class="form-control" type="text" ng-model="user.name" placeholder="Type a name... any name!"/>
+			</div>
+			<div class="form-group">
+				<label>Favorite color?</label>
+				<select class="form-control" ng-model="user.selectedColor">
+					<option ng-repeat="color in colors" value="{{color}}">{{color}}</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Favorite animal?</label>
+				<select class="form-control" ng-model="user.selectedAnimal">
+					<option ng-repeat="animal in animals" value="{{animal}}">{{animal}}</option>
+				</select>
+			</div>
+			<a role="button" ng-click="update(user)" class="btn btn-primary pull-right" type="submit" href="#/home">Let's go!</a>
+		</fieldset>
+	</form>
+	<pre>form = {{user | json}}</pre>
+  	<pre>master = {{selections | json}}</pre>
+</div>

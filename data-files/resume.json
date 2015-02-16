@@ -1,0 +1,97 @@
+[
+    {
+        "type": "job",
+        "companyOrg": "Minsky, McCormick & Hallagan, P.C.",
+        "title": "Legal Assistant",
+        "startDate": "May 2013",
+        "endDate": "Present",
+        "location": "Chicago, IL",
+        "duties": [
+            "Explain US immigration processes to foreign nationals and their US sponsors",
+            "Prepare applications and petitions for filing with the United States Citizenship and Immigration Service",
+            "Proof-read forms and support letters to ensure accuracy",
+            "Write support letters that demonstrate how companies or foreign nationals fit the criteria for a given visa classification",
+            "Edit attorneys articles and post on firm blog",
+            "Maintain firm website by updating content and editing HTML",
+            "Create firms social media presence on Twitter, Facebook, LinkedIn, and Google+"
+        ]
+    },
+    {
+        "type": "job",
+        "companyOrg": "Federal Bar Association Chicago Chapter",
+        "title": "Digital & Event Coordinator",
+        "startDate": "October 2013",
+        "endDate": "Present",
+        "location": "Chicago, IL",
+        "duties": [
+            "Assist with event planning and registration",
+            "Communicate with FBA members to assist in event registration, logistics, and membership",
+            "Distribute CLE documents and course materials to attendees",
+            "Created an electronic CLE evaluation form"
+        ]
+    },
+    {
+        "type": "freelance",
+        "title": "Writer",
+        "startDate": "October 2012",
+        "endDate": "Present",
+        "duties": [
+            "Write articles for Progressive blog",
+            "Research and write about specific topics",
+            "Write opinion pieces about current events"
+        ]
+    },
+    {
+        "type": "job",
+        "companyOrg": "CIBT Visas",
+        "title": "Visa and Passport Specialist II",
+        "startDate": "August 2011",
+        "endDate": "May 2013",
+        "location": "Chicago, IL",
+        "duties": [
+            "Facilitate process of acquiring visas and passport services for international travelers of all nationalities",
+            "Required to know and comply with rules and regulations of all consulates and US Department of State passport agencies",
+            "Expedited visa and passport services for those traveling on short notice",
+            "Dealt with clients face to face and provide customer service over the phone",
+            "Worked in fast-paced environment and solve logistical problems quickly and accurately"
+        ]
+    },
+    {
+        "type": "job",
+        "companyOrg": "Camp Henry at Lake Logan",
+        "title": "Camp Counselor",
+        "startDate": "2008",
+        "endDate": "2009",
+        "location": "Lake Logan, NC",
+        "duties": [
+            "Supervised children (elementary to high school) at overnight camp",
+            "Organized and led workshops to develop campers’ creativity and expression including yoga, arts and crafts and dance"
+        ]
+    },
+    {
+        "type": "volunteer",
+        "companyOrg": "World Relief",
+        "title": "ESL Tutor",
+        "startDate": "May 2013",
+        "endDate": "Present",
+        "location": "Chicago, IL",
+        "duties": [
+            "Provide in-home tutoring to a recently resettled beginning English speaker",
+            "Meet approximately once a week to give a 2 hour English lesson and practice conversation"
+        ]
+    },
+    {
+        "type": "volunteer",
+        "companyOrg": "World Relief",
+        "title": "ESL Tutor",
+        "startDate": "January 2013",
+        "endDate": "July 2013",
+        "location": "Chicago, IL",
+        "duties": [
+        	"Tutor one student (approx 2 hours/week) in English",
+            "Completed training to be a citizenship tutor and help those applying for naturalization",
+            "Helped staff naturalization workshop",
+            "Tutored two students who have now passed the citizenship exam"
+        ]
+    }
+]

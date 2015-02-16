@@ -1,0 +1,75 @@
+@import '_utilities.scss';
+
+body {
+
+}
+
+#greetings {
+  text-align: center;
+  h1 {
+    font-size: 3em;
+  }
+}
+#hi {
+  margin: 50px;
+}
+
+h1 .arabic {
+  font-size: 1.3em;
+  position: relative;
+  top: 5px;
+}
+
+.upside-down-exclamation {
+  position: relative; 
+  top: -6px;
+}
+
+form {
+    border: solid 1px;
+    padding: 10px 20px;
+    background: #DFEEF5;
+    //width: 70%;
+    margin: 0 auto;
+  }
+
+.resumeItem {
+  margin: 20px 0;
+	border-radius: 10px;
+  padding: 20px 20px;
+  h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.jobs {
+  background: $lightTeal;
+  border: solid 2px $teal; 
+
+}
+.volunteering {
+  background: $beige;
+  border: solid 2px $brightGreen;
+}
+
+.languages {
+  background: rgb(246,166,136);
+  border: solid 2px rgb(215,126,92);
+}
+
+.education {
+  background: rgba(255,234,155,1);
+  border: solid 2px rgba(253,220, 98,1);
+}
+
+.writing {
+  background: rgb(198,248,236);
+  border: solid 2px rgb(177,222,211);
+}
+
+.coding {
+  background: rgba(248,140,248,1);
+  border: solid 2px rgba(209, 80,209,1);
+}
+
