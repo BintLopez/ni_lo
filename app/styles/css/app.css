@@ -90,20 +90,20 @@ form {
   margin: 0 auto; }
 
 .resumeItem {
-  margin: 20px 0;
+  margin: 20px 10px;
   border-radius: 10px;
-  padding: 20px 20px; }
+  padding: 10px 10px; }
+  .resumeItem .desc {
+    background: red; }
   .resumeItem h2, .resumeItem h3, .resumeItem h4 {
     margin: 0;
     padding: 0; }
 
 .jobs {
-  background: #ccebf2;
-  border: solid 2px #02cfff; }
+  border-left: solid 2px #02cfff; }
 
 .volunteering {
-  background: #ecfcd4;
-  border: solid 2px #b5ff43; }
+  border-left: solid 2px #b5ff43; }
 
 .languages {
   background: #f6a688;

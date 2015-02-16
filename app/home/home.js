@@ -10,7 +10,7 @@ angular.module('myApp.home', ['ngRoute', 'myApp.greetings'])
 }])
  
 .controller('HomeCtrl', [ '$scope', function($scope) {
-	console.log($scope.selections);
+
 }]);
 
 // .directive('resize', function ($window) {

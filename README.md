@@ -21,7 +21,7 @@ Goals:
 
 
 
-//README FROM ANGULAR SEE APP
+//README FROM ANGULAR SEED APP
 
 # angular-seed — the seed for AngularJS apps
 
