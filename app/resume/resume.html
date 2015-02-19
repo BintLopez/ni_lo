@@ -2,25 +2,9 @@
 <h1>Resume</h1>
 
 <div class="btn-group" role="group">
-	<input ng-model="exp" type="button" ng-repeat="t in expTypes" value="{{expTypes[$index]}}">
+	<input ng-model="t" type="button" ng-repeat="t in expTypes" value="{{expTypes[$index]}}" ng-click="getByType(expTypes[$index])">
 	<!-- <a class="btn" role="button" ng-repeat="t in expTypes" ng-click="getByType()">{{expTypes[$index]}}</a> -->
 </div>
-
-<!-- <div class="row" ng-repeat="exp in experiences" ng-show="{{exp.current}}">
-	<section class="resumeItem col-md-4" style="background: red;">
-		<div ng-show="{{exp.current}}">These are my current resume items.</div>
-	</section>
-
-	<section class="resumeItem {{exp.type}} col-md-8"><span class=""></span>
-		<h3>{{exp.companyOrg}}</h3>
-		<h3>{{exp.title}}</h3>
-		<h4><small>{{exp.startDate}} - {{exp.endDate}}</small></h4>
-		<h4><small>{{exp.location}}</small></h4>
-		<ul>
-			<li ng-repeat="d in exp.duties">{{exp.duties[$index]}}</li>
-		</ul>
-	</section>
-</div> -->
 
 <div class="row" ng-repeat="exp in experiences" ng-show="{{exp.current}}">
 	<section class="resumeItem title col-md-3">
