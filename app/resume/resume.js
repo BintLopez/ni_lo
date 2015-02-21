@@ -21,6 +21,12 @@ angular.module('myApp.resume', ['ngRoute'])
     return factory;
 })
 
+.filter('reverse', function() {
+  return function(value) {
+
+  };
+})
+
 .controller('resumeCtrl', function($scope, findExperiencesFactory) {
 	findExperiencesFactory.getExperiences().then(function(data) {
         $scope.experiences = data.data;
@@ -30,7 +36,7 @@ angular.module('myApp.resume', ['ngRoute'])
         $scope.coding = [];
         $scope.languages = [];
         for (var i = 0; i < $scope.experiences.length; i++) {
-            if ($scope.experiences[i].type === "job") {
+            if ($scope.experiences[i].type === "jobs") {
                 $scope.jobs.push($scope.experiences[i]);
             };
             if ($scope.experiences[i].type === "volunteering") {
@@ -46,10 +52,16 @@ angular.module('myApp.resume', ['ngRoute'])
                 $scope.languages.push($scope.experiences[i]);
             }
         };
-        $scope.expTypes = ['jobs', 'volunteering', 'writing', 'education', 'coding'];
+        // for (i in $scope.experiences.length) {
+        //     if ($scope.experiences.current) {
+
+        //     }
+        // }
+        $scope.isVisible = 'jobs'
+        $scope.expTypes = ['jobs', 'volunteering', 'writing', 'education', 'coding', 'languages'];
         $scope.getByType = function(value) {
-            console.log(value);
-        // return value
+            $scope.isVisible = value;
+            return $scope.isVisible;
         };
     });
 });

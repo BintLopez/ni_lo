@@ -33,6 +33,12 @@ form {
     margin: 0 auto;
   }
 
+//Refactor attempt
+// .resumeItem {
+//   @include resumeItem($type: "jobs");
+// }
+
+
 .resumeItem {
   margin: 20px 10px;
 	border-radius: 10px;
@@ -57,22 +63,22 @@ form {
 }
 
 .languages {
-  background: rgb(246,166,136);
-  border: solid 2px rgb(215,126,92);
+  //background: rgb(246,166,136);
+  border-left: solid 2px $rust;
 }
 
 .education {
-  background: rgba(255,234,155,1);
-  border: solid 2px rgba(253,220, 98,1);
+  //background: rgba(255,234,155,1);
+  border-left: solid 2px $goldenYellow;
 }
 
 .writing {
-  background: rgb(198,248,236);
-  border: solid 2px rgb(177,222,211);
+  //background: rgb(198,248,236);
+  border-left: solid 2px $babyTeal;
 }
 
 .coding {
-  background: rgba(248,140,248,1);
-  border: solid 2px rgba(209, 80,209,1);
+  //background: rgba(248,140,248,1);
+  border-left: solid 2px $magenta;
 }
 

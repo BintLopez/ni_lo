@@ -1,71 +1,3 @@
-/* As hex codes */
-.color-primary-0 {
-  color: #d150d1; }
-
-/* Main Primary color */
-.color-primary-1 {
-  color: #f879f8; }
-
-.color-primary-2 {
-  color: #f88cf8; }
-
-.color-primary-3 {
-  color: #862a86; }
-
-.color-primary-4 {
-  color: #8f418f; }
-
-/* As RGBa codes */
-.rgba-primary-0 {
-  color: #d150d1; }
-
-/* Main Primary color */
-.rgba-primary-1 {
-  color: #f879f8; }
-
-.rgba-primary-2 {
-  color: #f88cf8; }
-
-.rgba-primary-3 {
-  color: #862a86; }
-
-.rgba-primary-4 {
-  color: #8f418f; }
-
-/* As hex codes */
-.color-primary-0 {
-  color: #ffea9b; }
-
-/* Main Primary color */
-.color-primary-1 {
-  color: #fff7dc; }
-
-.color-primary-2 {
-  color: #fffae8; }
-
-.color-primary-3 {
-  color: #fddc62; }
-
-.color-primary-4 {
-  color: #fde385; }
-
-/* As RGBa codes */
-.rgba-primary-0 {
-  color: #ffea9b; }
-
-/* Main Primary color */
-.rgba-primary-1 {
-  color: #fff7dc; }
-
-.rgba-primary-2 {
-  color: #fffae8; }
-
-.rgba-primary-3 {
-  color: #fddc62; }
-
-.rgba-primary-4 {
-  color: #fde385; }
-
 #greetings {
   text-align: center; }
   #greetings h1 {
@@ -106,17 +38,13 @@ form {
   border-left: solid 2px #b5ff43; }
 
 .languages {
-  background: #f6a688;
-  border: solid 2px #d77e5c; }
+  border-left: solid 2px #d77e5c; }
 
 .education {
-  background: #ffea9b;
-  border: solid 2px #fddc62; }
+  border-left: solid 2px #fddc62; }
 
 .writing {
-  background: #c6f8ec;
-  border: solid 2px #b1ded3; }
+  border-left: solid 2px #b1ded3; }
 
 .coding {
-  background: #f88cf8;
-  border: solid 2px #d150d1; }
+  border-left: solid 2px #d150d1; }

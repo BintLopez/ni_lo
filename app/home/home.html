@@ -1,7 +1,7 @@
 <div ng-controller="GreetingsCtrl"> 
 
 	<div>
-	<h1 ng-model="selectedColor" style="color: {{selectedColor}}">Hello, {{name}}! Nice to meet you!</h1>
+	<h1 ng-model="selectedColor" style="color: {{selectedColor}}">Hello, {{$scope.name}}! Nice to meet you!</h1>
 		<div>
 		    <img ng-model="selectedAnimal" ng-src="img/{{selectedAnimal}}.jpg" class="img-responsive img-thumbnail">
 		</div>

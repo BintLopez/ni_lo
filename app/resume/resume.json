@@ -8,7 +8,7 @@
         "endDate": "Present",
         "location": "Chicago, IL",
         "icon": "",
-        "duties": [
+        "details": [
             "Explain US immigration processes to foreign nationals and their US sponsors",
             "Prepare applications and petitions for filing with the United States Citizenship and Immigration Service",
             "Proof-read forms and support letters to ensure accuracy",
@@ -26,7 +26,7 @@
         "startDate": "October 2013",
         "endDate": "Present",
         "location": "Chicago, IL",
-        "duties": [
+        "details": [
             "Assist with event planning and registration",
             "Communicate with FBA members to assist in event registration, logistics, and membership",
             "Distribute CLE documents and course materials to attendees",
@@ -41,7 +41,7 @@
         "startDate": "August 2011",
         "endDate": "May 2013",
         "location": "Chicago, IL",
-        "duties": [
+        "details": [
             "Facilitate process of acquiring visas and passport services for international travelers of all nationalities",
             "Required to know and comply with rules and regulations of all consulates and US Department of State passport agencies",
             "Expedited visa and passport services for those traveling on short notice",
@@ -57,7 +57,7 @@
         "startDate": "2008",
         "endDate": "2009",
         "location": "Lake Logan, NC",
-        "duties": [
+        "details": [
             "Supervised children (elementary to high school) at overnight camp",
             "Organized and led workshops to develop campers’ creativity and expression including yoga, arts and crafts and dance"
         ]
@@ -70,7 +70,7 @@
         "startDate": "May 2013",
         "endDate": "Present",
         "location": "Chicago, IL",
-        "duties": [
+        "details": [
             "Provide in-home tutoring to a recently resettled beginning English speaker",
             "Meet approximately once a week to give a 2 hour English lesson and practice conversation",
             "Tutor one student (approx 2 hours/week) in English",
@@ -83,7 +83,7 @@
         "type": "writing",
         "title": "Writing",
         "current": false,
-        "duties": [
+        "details": [
             "Write articles for Progressive blog",
             "Research and write about specific topics",
             "Write opinion pieces about current events"
@@ -96,7 +96,7 @@
         "location": "St. Louis, MO",
         "startDate": "2007",
         "endDate": "2011",
-        "highlights": ["Annika Rodriguez Scholar"],
+        "details": ["Annika Rodriguez Scholar"],
         "courses": [],
         "major": "Arabic Language & Literature"
     },
@@ -120,13 +120,12 @@
     },
     {
         "type": "languages",
-        "highlights": ["Arabic - proficient in Modern Standard Arabic and Levantine dialect", "Spanish - conversational", "Farsi - beginner"]
+        "details": ["Arabic - proficient in Modern Standard Arabic and Levantine dialect", "Spanish - conversational", "Farsi - beginner"]
     },
     {
         "type": "coding",
         "icon": "glyphicon glyphicon-menu-left glyphicon glyphicon-menu-right",
-        "highlights": [],
-        "courses": [
+        "details": [
             "Girl Develop It - Intermediate HTML/CSS", "Girl Develop It - JS 101: Intro to Javascript",
             "Girl Develop It - JS 202: AJAX/JSONP", "Girl Develop It - JS 203: Client-Side APIs", 
             "Girl Develop It - JS 204: Object-Oriented JavaScript",

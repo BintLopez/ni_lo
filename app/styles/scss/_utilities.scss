@@ -1,68 +1,46 @@
-//DEFAULT THEME COLORS
+//COLOR LIBRARY
+
+$rust: rgb(215,126,92);
+$goldenYellow: rgba(253,220, 98,1);
+$babyTeal: rgb(177,222,211);
+$magenta: rgba(209, 80,209,1);
 $lightTeal: rgb(204, 235, 242);
 $teal: rgb(2, 207, 255);
 $beige: rgb(236, 252, 212);
 $brightGreen: rgb(181, 255, 67);
 
-//PURPLE THEME COLORS
+//PURPLES
 $brightPurple: rgba( 63,  2,164,1);
 $brightLavender: rgba(146, 92,235,1);
 $lightestPurple: rgba(163,132,216,1);
 $darkestPurple: rgba( 22,  1, 57,1);
 $brightDarkPurple: rgba( 43,  2,110,1);
 
-//ORANGE THEME COLORS
-//YELLOW THEME COLORS
-//RED THEME COLORS
-//GREEN THEME COLORS
-//BLUE THEME COLORS
+//PINK PURPLE 
+$pinkPurple0: rgba(209, 80,209,1);
+$pinkPurple1: rgba(248,121,248,1);
+$pinkPurple2: rgba(248,140,248,1);
+$pinkPurple3: rgba(134, 42,134,1);
+$pinkPurple4: rgba(143, 65,143,1);
+
+//YELLOWS THEME COLORS
+$yellow0: rgba(255,234,155,1);
+$yellow1: rgba(255,247,220,1);
+$yellow2: rgba(255,250,232,1);
+$yellow3: rgba(253,220, 98,1);
+$yellow4: rgba(253,227,133,1);
 
 
+// MIXINS
 
-//DEFAULT THEME COLORS
-$lightTeal: rgb(204, 235, 242);
-$teal: rgb(2, 207, 255);
-$beige: rgb(236, 252, 212);
-$brightGreen: rgb(181, 255, 67);
+@mixin resumeItem($type) {
+	margin: 20px 10px;
+	border-radius: 10px;
+  	padding: 10px 10px;
+  	border-left: solid 2px $type;
+  	h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+}
 
-//PURPLE THEME COLORS
-$brightPurple: rgba( 63,  2,164,1);
-$brightLavender: rgba(146, 92,235,1);
-$lightestPurple: rgba(163,132,216,1);
-$darkestPurple: rgba( 22,  1, 57,1);
-$brightDarkPurple: rgba( 43,  2,110,1);
-
-//ORANGE THEME COLORS
-//YELLOW THEME COLORS
-//RED THEME COLORS
-//GREEN THEME COLORS
-//BLUE THEME COLORS
-
-//PINK-PURPLE
-/* As hex codes */
-.color-primary-0 { color: #D150D1 }	/* Main Primary color */
-.color-primary-1 { color: #F879F8 }
-.color-primary-2 { color: #F88CF8 }
-.color-primary-3 { color: #862A86 }
-.color-primary-4 { color: #8F418F }
-/* As RGBa codes */
-.rgba-primary-0 { color: rgba(209, 80,209,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(248,121,248,1) }
-.rgba-primary-2 { color: rgba(248,140,248,1) }
-.rgba-primary-3 { color: rgba(134, 42,134,1) }
-.rgba-primary-4 { color: rgba(143, 65,143,1) }
-
-
-//YELLOWS
-/* As hex codes */
-.color-primary-0 { color: #FFEA9B }	/* Main Primary color */
-.color-primary-1 { color: #FFF7DC }
-.color-primary-2 { color: #FFFAE8 }
-.color-primary-3 { color: #FDDC62 }
-.color-primary-4 { color: #FDE385 }
-/* As RGBa codes */
-.rgba-primary-0 { color: rgba(255,234,155,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(255,247,220,1) }
-.rgba-primary-2 { color: rgba(255,250,232,1) }
-.rgba-primary-3 { color: rgba(253,220, 98,1) }
-.rgba-primary-4 { color: rgba(253,227,133,1) }

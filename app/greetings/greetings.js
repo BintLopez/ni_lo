@@ -17,7 +17,6 @@ angular.module('myApp.greetings', ['ngRoute'])
 
       $scope.update = function(user) {
         $scope.selections = angular.copy(user);
-        return $scope.selections;
       };
 
       $scope.reset = function() {
